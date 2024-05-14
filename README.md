@@ -21,28 +21,28 @@ ResAppli est une application web développée en Django, dont le but est de cré
 ```bash
 git clone https://github.com/votre-utilisateur/ResAppli.git
 cd ResAppli
+```
 
- ### Étape 2 : Créer et activer un environnement virtuel
 
-Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances du projet.
-
-Étape 3 : Installer les dépendances
-
+### Étape 2 : Installer les dépendances
+```bash
 pip install -r requirements.txt
-
-Étape 4 : Configurer la base de données
+```
+### Étape 3 : Configurer la base de données
 
 Appliquer les migrations pour configurer la base de données.
-
+```bash
 python manage.py migrate
-
-Étape 5 : Créer un superutilisateur
+```
+### Étape 4 : Créer un superutilisateur
 
 Pour accéder à l'interface d'administration de Django, vous devez créer un superutilisateur.
+```bash
 python manage.py createsuperuser
-
-Étape 6 : Lancer le serveur de développement
+```
+### Étape 5 : Lancer le serveur de développement
 
 Démarrez le serveur de développement pour tester l'application localement.
-
+```bash
 python manage.py runserver
+```
