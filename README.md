@@ -19,7 +19,7 @@ ResAppli est une application web développée en Django, dont le but est de cré
 ### Étape 1 : Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-utilisateur/ResAppli.git
+git clone https://github.com/housseyni/ResAppli.git
 cd ResAppli
 ```
 
